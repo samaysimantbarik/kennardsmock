@@ -3,6 +3,9 @@ const accounts= require('express').Router();
 var contracts= require("./contratcs");
 accounts.use("/:accountCode/contracts",contracts);
 
+var tokens= require("./tokens");
+accounts.use("/:accountCode/tokens",tokens);
+
 accounts.get("/:accountCode",(req,res)=>{
 
     var country= req.query.country;
