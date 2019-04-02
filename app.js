@@ -11,13 +11,7 @@ var account= require("./Services/accounts");
 var customers= require("./Services/customers");
 var contracts= require("./Services/contratcs");
 
-/*
-url:  https://038914692631.signin.aws.amazon.com/console
-user name: nodeuser
-access key id Id:AKIAQSD37CYLQ2M3N4PB
-smart access key :fAkbceLgQkvPw2nKOyGle428lKkYuwI7315hx3Ve 
 
-*/
 
 
 app.use("/users",users);
