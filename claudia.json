@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "kennerdsmock-executor",
+    "name": "kennerdsmock",
+    "region": "eu-central-1"
+  },
+  "api": {
+    "id": "orsgbsasm0"
+  }
+}

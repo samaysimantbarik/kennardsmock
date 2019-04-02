@@ -3,6 +3,9 @@ var customers= require('express').Router();
 var contracts= require("./contratcs");
 customers.use("/:customerid/contracts",contracts);
 
+var tokens= require("./tokens");
+customers.use("/:accountCode/tokens",tokens);
+
 
 customers.get("/:customerid", (req,res) => {
 
